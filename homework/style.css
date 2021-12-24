@@ -1,0 +1,140 @@
+
+.table1 {
+    color:red ;
+}
+
+.table2 {
+    color:blue ;
+}
+.table3 {
+    color:blue ;
+}
+
+.table4 {
+    color:red ;
+}
+
+.table_bold {
+    font-weight: bold ;
+}
+
+.list > li {
+    color: aqua;
+}
+
+li em {
+    color: green;
+}  
+
+h3.wow {
+    font-size: 60px;
+}
+
+h4 + h5 {
+    font-size: 40px;
+    color: green;
+}
+
+a:link {
+    color: pink;
+  }
+
+a:visited {
+    color: green;
+  } 
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  body p em {
+    color: yellow;
+    font-size: 30px;
+  }
+
+  .strips-box {
+    margin: auto;
+    border: 5px solid yellow;
+    border-radius: 50px;
+    padding:  10px;
+    background-color: white;
+    width: 700px;
+    height: 5px;
+}
+
+.O-red {
+    margin: 0% auto 0% auto;
+    border: 15px solid black;
+    border-radius: 10%;
+    padding:  100px 100px 100px 100px;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.O-yellow {
+    margin: 0% auto 0% auto;
+    border: 15px solid black;
+    border-radius: 50%;
+    padding:  10px;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.O-green {
+    margin: 0% auto 0% auto;
+    border: 30px solid black;
+    border-radius: 1%;
+    padding:  0 0 0 0;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.brown1 {
+    margin: 0 1% 0 1%;
+    border: 5px solid black;
+    border-radius: 1%;
+    padding:  0 0 0 0;
+    background-color: brown;
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+
+.grey1 {
+    margin: 0 1% 0 13%;
+    border: 5px solid black;
+    border-radius: 1%;
+    padding:  0 0 0 0;
+    background-color: grey;
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+
+.brown2 {
+    margin: 0 1% 0 1%;
+    border: 5px solid black;
+    border-radius: 1%;
+    padding:  0 0 0 0;
+    background-color: brown;
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+
+.grey2 {
+    margin: 0 1% 0 13%;
+    border: 5px solid black;
+    border-radius: 1%;
+    padding:  0 0 0 0;
+    background-color: grey;
+    width: 150px;
+    height: 150px;
+    display: block;
+}
