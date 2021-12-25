@@ -45,7 +45,7 @@
 - жмем кнопку Create pull request
 - указываем комментарий к мру
 - мерджим нажам кнопку Merge pull request
-
+git 
 ### Homework
 
 - приступаем к выполнению дз 
