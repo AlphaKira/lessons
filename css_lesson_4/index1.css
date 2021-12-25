@@ -1,0 +1,40 @@
+.main-page {
+    display: grid;
+    grid-template:  "nav nav"
+                    "content add"
+                    "info info";
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 50px 500px 100px;
+}
+
+.navigation {
+    grid-area: nav;
+    background-color: mediumseagreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content {
+    grid-area: content;
+    background-color: mintcream;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad {
+    grid-area: add;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    grid-area: info;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
