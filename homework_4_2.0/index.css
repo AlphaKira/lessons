@@ -1,0 +1,98 @@
+.main-page {
+    display: grid;
+    grid-template:  "head"
+                    "art"
+                    "foto"
+                    "a_m"
+                    "s"
+                    "p"
+                    "foot";
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px 60px;
+}
+
+/* доделать, как div распредилить также , как на макете? */
+.menu { 
+    grid-area: head;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 1px solid #828282;
+    border-left: 1px solid #828282;
+    border-right: 1px solid #828282;
+}
+
+.net {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.spider1 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.spider2 {
+    margin-left: 1vh;
+    margin-right: 1vh;
+    align-items: center;
+}
+
+.info {
+    grid-area: art;
+    background-color: rgb(187, 29, 29);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* исправить название area и class на другое */
+.photo {
+    grid-area: foto;
+    background-color: rgb(206, 77, 77);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.one {
+    max-width: 100px;
+}
+
+/* исправить название area и class на другое */
+.about_me {
+    grid-area: a_m;
+    background-color: rgb(77, 206, 88);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* исправить название area и class на другое */
+.skills {
+    grid-area: s;
+    background-color: rgb(71, 100, 73);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* исправить название area и class на другое */
+.portfolio {
+    grid-area: p;
+    background-color: rgb(58, 112, 126);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom_line {
+    grid-area: foot;
+    background-color: rgb(248, 78, 11);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
